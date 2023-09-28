@@ -1,0 +1,16 @@
+{
+  "name": "client_credentials",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "request_token": "node backend-service/auth/get-credentials.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "request": "^2.88.2"
+  }
+}
